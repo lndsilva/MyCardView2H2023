@@ -64,28 +64,38 @@
             android:text="Nossos horários:" />
 
         <Button
+            android:id="@+id/btnP1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="p1"
             android:text="17:30" />
 
         <Button
+            android:id="@+id/btnP2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="p2"
             android:text="19:30" />
 
         <Button
+            android:id="@+id/btnP3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="p3"
             android:text="20:00" />
 
         <Button
+            android:id="@+id/btnP4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="p4"
             android:text="21:00" />
 
         <Button
+            android:id="@+id/btnReserve"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="Reserve"
             android:text="Reserve" />
 
 
