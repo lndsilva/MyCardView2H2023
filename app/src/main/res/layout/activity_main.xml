@@ -25,9 +25,9 @@
             android:text="Café Badílico" />
 
         <RatingBar
-            android:contentDescription="avaliação"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:contentDescription="avaliação" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -56,12 +56,37 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="2dp"/>
+            android:layout_height="2dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nossos horários"
-            />
+            android:text="Nossos horários:" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17:30" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19:30" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20:00" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21:00" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reserve" />
 
 
     </com.google.android.material.card.MaterialCardView>
